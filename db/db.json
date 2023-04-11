@@ -48,5 +48,37 @@
       "description": "Look past the crowds and you’ll find that one of the most storied cities in the world hasn’t lost an ounce of romance. Cruising the Adriatic lagoon by gondola, taking tours of its historic palazzi, snapping a photo in Piazza San Marco—it’s all been done before, but few spots in the world are as worth braving the masses to experience as this.",
       "id": 6
     }
+  ],
+  "continents": [
+    {
+      "continent": "Asia",
+      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/70/26/35.jpg",
+      "path": "asia"
+    },
+    {
+      "continent": "Africa",
+      "img": "https://www.planetware.com/wpimages/2020/07/south-africa-top-attractions-intro-paragraph-giraffes-sunset.jpg",
+      "path": "africa"
+    },
+    {
+      "continent": "North America",
+      "img": "https://tourscanner.com/blog/wp-content/uploads/2022/02/best-places-to-visit-in-New-York-City.jpg",
+      "path": "north-america"
+    },
+    {
+      "continent": "South America",
+      "img": "https://www.ytravelblog.com/wp-content/uploads/2017/09/machu-picchu-peru-best-places-to-visit-in-south-america.jpg",
+      "path": "south-america"
+    },
+    {
+      "continent": "Europe",
+      "img": "https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/10/Manarola-Italy.jpg",
+      "path": "europe"
+    },
+    {
+      "continent": "Australia",
+      "img": "https://tourscanner.com/blog/wp-content/uploads/2022/03/places-to-visit-in-Australia.jpg",
+      "path": "australia"
+    }
   ]
 }
