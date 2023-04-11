@@ -1,3 +1,4 @@
+import Continents from "@/components/continents";
 import Hero from "@/components/hero";
 import Head from "next/head";
 
@@ -9,6 +10,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Continents />
       </main>
     </>
   );
