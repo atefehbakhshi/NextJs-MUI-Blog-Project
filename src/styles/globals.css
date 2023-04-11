@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero {
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_800,q_50,w_1900/v1/clients/texas/31_TX_Devil_s_River_0249th_RGB_aeffcdb2-db41-4177-a9c9-07cc2103ae09.jpg");
+  min-height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  padding: 5rem 1rem;
+}

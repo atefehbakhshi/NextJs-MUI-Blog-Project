@@ -1,3 +1,4 @@
+import Hero from "@/components/hero";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
       <Head>
         <title>Traveling To</title>
       </Head>
-      <main>hello next</main>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
