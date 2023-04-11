@@ -1,0 +1,52 @@
+{
+  "places": [
+    {
+      "name": "Atatus of Liberty",
+      "continent": "North America",
+      "country": "USA",
+      "img": "https://tourscanner.com/blog/wp-content/uploads/2021/09/Statue-of-Liberty-Manhattan.jpg",
+      "description": "There’s no denying that the Statue of Liberty is one of the most iconic and photographed landmarks in all of New York City, so it would be a sin to leave without paying this UNESCO World Heritage Site a visit.",
+      "id": 1
+    },
+    {
+      "name": "Central Park",
+      "continent": "North America",
+      "country": "USA",
+      "img": "https://tourscanner.com/blog/wp-content/uploads/2022/02/Central-Park-in-New-York-City.jpg",
+      "description": "A green oasis smack-dab in the heart of the concrete jungle, Central Park is one of the most famous public parks in the world and an undeniable New York City staple.",
+      "id": 2
+    },
+    {
+      "name": "Amalfi Coast",
+      "continent": "Europe",
+      "country": "Italy",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-529590615-1376x1032.jpg",
+      "description": "There are a few destinations in the world that make it onto every traveler’s bucket list, and the Amalfi Coast is one of them. From legendary Positano to hilltop Ravello, the glamour of Italy’s most famous peninsula—with its pastel-colored towns cascading down to the Mediterranean, olive groves, and endless limoncello—has not waned for centuries.",
+      "id": 3
+    },
+    {
+      "name": "Provence",
+      "continent": "Europe",
+      "country": "France",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-471662379-960x720.jpg",
+      "description": "Lavender fields that stretch over the horizon are an iconic image of Provence, but there’s far more beauty here than just its sweet-smelling flowers—including Michelin-starred cuisine, art studios used by names like Matisse and Cézanne, and scenic roads that pass by sugar-white beaches, mountain passes, and the glittering blues of the Mediterranean Sea.",
+      "id": 4
+    },
+    {
+      "name": "Phuket",
+      "continent": "Asia",
+      "country": "Thailand",
+      "img": "https://www.planetware.com/wpimages/2019/10/asia-best-places-to-visit-phuket-thailand.jpg",
+      "description": "Thailand's biggest island is also a magnet for visitors-and for good reason. Phuket boasts some of the best beaches in the country, with clean, soft, rolling sands and turquoise waters as far as the eye can see.",
+      "id": 5
+    },
+    {
+      "name": "Venice",
+      "continent": "Europe",
+      "country": "Italy",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-503689386-1376x1032.jpg",
+      "description": "Look past the crowds and you’ll find that one of the most storied cities in the world hasn’t lost an ounce of romance. Cruising the Adriatic lagoon by gondola, taking tours of its historic palazzi, snapping a photo in Piazza San Marco—it’s all been done before, but few spots in the world are as worth braving the masses to experience as this.",
+      "id": 6
+    }
+  ]
+}
