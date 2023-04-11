@@ -1,7 +1,15 @@
+import Head from "next/head";
 import React from "react";
 
 const FavoriteList = () => {
-  return <div>FavoriteList</div>;
+  return (
+    <>
+      <Head>
+        <title>Traveling To/Favorite-List</title>
+      </Head>
+      <div>FavoriteList</div>;
+    </>
+  );
 };
 
 export default FavoriteList;
