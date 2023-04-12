@@ -1,5 +1,6 @@
 import Continents from "@/components/continents";
 import Hero from "@/components/hero";
+import Popular from "@/components/popular";
 import Head from "next/head";
 
 export default function Home(props) {
@@ -11,18 +12,22 @@ export default function Home(props) {
       <main>
         <Hero />
         <Continents data={props.continents} />
+        <Popular data={props.popular} />
       </main>
     </>
   );
 }
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:3001/continents");
-  const data = await res.json();
+  const continents = await fetch("http://localhost:3001/continents");
+  const continentsData = await continents.json();
+  const popular = await fetch("http://localhost:3001/places?_limit=6");
+  const popularData = await popular.json();
 
   return {
     props: {
-      continents: data,
+      continents: continentsData,
+      popular: popularData,
     },
   };
 }
