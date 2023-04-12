@@ -2,7 +2,7 @@ import Continents from "@/components/continents";
 import Hero from "@/components/hero";
 import Head from "next/head";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -10,8 +10,19 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Continents />
+        <Continents data={props.continents} />
       </main>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch("http://localhost:3001/continents");
+  const data = await res.json();
+
+  return {
+    props: {
+      continents: data,
+    },
+  };
 }

@@ -1,21 +1,8 @@
 import { Divider, Grid, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Continent from "./Continent";
 
-const getData = async () => {
-  const res = await fetch("http://localhost:3001/continents");
-  const data = await res.json();
-
-  return data;
-};
-
-const Continents = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    getData().then((res) => setData(res));
-  }, []);
-
+const Continents = ({ data }) => {
   return (
     <>
       <Typography variant="h6" sx={{ mt: 3, textAlign: "center" }}>
