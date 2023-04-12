@@ -47,6 +47,30 @@
       "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-503689386-1376x1032.jpg",
       "description": "Look past the crowds and you’ll find that one of the most storied cities in the world hasn’t lost an ounce of romance. Cruising the Adriatic lagoon by gondola, taking tours of its historic palazzi, snapping a photo in Piazza San Marco—it’s all been done before, but few spots in the world are as worth braving the masses to experience as this.",
       "id": 6
+    },
+    {
+      "name": "Hallstatt",
+      "continent": "Europe",
+      "country": "Austria",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-945273794-1376x1032.jpg",
+      "description": "This tiny, Iron-Age hamlet spills down a slope to the shores of Lake Hallstatt and is surrounded by mountains on all sides, where scenic trails take in the area’s glaciers and incredible fall foliage come autumn. Winter is equally beautiful, especially when snow covers the alpine houses and Baroque churches and a Christmas market takes over the main square.",
+      "id": 7
+    },
+    {
+      "name": "Bruges",
+      "continent": "Europe",
+      "country": "Belgium",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-504249394-1376x1032.jpg",
+      "description": "This Flemish “Venice of the North” is its own kind of canal city—one where winding river-ways share space with secret gardens, quaint chocolate shops, atmospheric breweries serving Trappist beers, and medieval architecture spared from WWII.",
+      "id": 8
+    },
+    {
+      "name": "Lapland",
+      "continent": "Europe",
+      "country": "Finland",
+      "img": "https://www.jetsetter.com//uploads/sites/7/2019/04/GettyImages-182030105-960x720.jpg",
+      "description": "Icy forests, husky-led sled rides, herds of reindeer, tiny log cabins blanketed in snow…. Finnish Lapland, high up in the Arctic Circle, is the real-life version of the North Pole, complete with Northern Lights viewings and igloo hotels to watch them in.",
+      "id": 9
     }
   ],
   "continents": [
